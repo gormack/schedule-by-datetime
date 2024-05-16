@@ -9,8 +9,8 @@ describe('getStringFromScheduleTimeUnit()', () => {
 
     test('hardcoded time is displayed correctly', () => {
         expect(
-            getStringFromScheduleTimeUnit(2024, 5, 16, 17, 18, '+01')
-        ).toBe('2024-05-16T17:18:00.000+01:00');
+            getStringFromScheduleTimeUnit(2024, 4, 12, 8, 25, '+01')
+        ).toBe('2024-04-12T08:25:00.000+01:00');
     });
 
     test.skip('current time is displayed correctly', () => {
